@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Pig Games) 2 DICE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container clearfix">
+        <!-- //Player 1 -->
+        <div class="player-0 active">
+            <div class="player-name" id="name-0">Player 1</div>
+            <div class="player-score" id="score-0">43</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-0">11</div>
+            </div>
+        </div>
+
+        <!-- //Player2 -->
+        <div class="player-1">
+            <div class="player-name" id="name-1">Player 2</div>
+            <div class="player-score" id="score-1">72</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-1">11</div>
+            </div>
+        </div>
+
+        <!-- button  -->
+        <div class="button">
+            <button class="new"><img src="icons/new-game.svg"> New game</button>
+            <button class="roll"> <img src="icons/roll-dice.svg"> Roll Dice</button>
+            <button class="hold"><img src="icons/hold.svg"> Hold</button>
+        </div>
+
+        <input type="text" placeholder="FINAL SCORE" class="final-score">
+
+        <!-- dice  -->
+        <img class="dice" src="dice-1.svg" alt="Dice" id="dice1">
+        <img class="dice" src="dice-1.svg" alt="Dice" id="dice2">
+
+    </div>
+
+    <!-- script  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
